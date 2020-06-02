@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            nav ul {
+                text-align: right;
+                list-style-type: none;
+                margin:0;
+                padding:0;
+            }
+            nav ul li {
+                display: inline;
+            }
+
+            footer ul {
+                text-align: center;
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            footer ul li {
+                display: inline;
+            }
+
+            form {
+                text-align: center;
+            }
+            .container {
+                min-height: calc(100vh - 200px);
+                margin: 140px auto 0;
+                text-align: center;
+                width: 586px;
+            }
+
+            #logo {
+                width: 270px;
+                height: 92px;
+                background-size:100%;
+            }
+
+            #search {
+                /* display: block; */
+                width: 566px;
+                padding: 7px;
+                /* margin: 30px 0 30px; */
+                border: solid 1px #ccc;
+                outline: none;
+            }
+
+            #search:hover {
+                border-color: #aaa;
+            }
+            input[type="submit"] {
+                /* display: block; */
+                background: #eee;
+                color: #757575;
+                border: solid 1px #ccc;
+                padding: 5px;
+                font-size: 13px;
+                opacity: .8;
+                font-weight: bold;
+                margin: 0 4px;
+                height: 36px;
+                border: none;
+                padding: 5px 10px;
+            }
+            input[type="submit"]:hover {
+                cursor: pointer;
+                opacity: 1;
+                color: #333;
+            } 
+
+            fieldset {
+                border: medium none;
+                margin: 0 0 10px;
+            }
+
+            .footer {
+                height: 50px;
+                margin-top: -30px;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <nav>
+            <ul>
+                <li><a href="#">Web</a></li>
+                <li><a href="#">Images</a></li>
+                <li><a href="#">Videos</a></li>
+            </ul>
+        </nav>
+
+        <div class="container">
+            <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google-logo">
+
+            <form>
+                <fieldset>
+                    <input id="search" type="text">
+                </fieldset>
+                <fieldset>
+                    <input type="submit" value="Search">
+                </fieldset>
+            </form>
+        </div>
+
+
+        <footer class="footer">
+            <ul>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Google</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>
